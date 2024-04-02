@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/toys-shop-react/static/css/main.f8125f8f.css",
+    "main.js": "/toys-shop-react/static/js/main.a3050524.js",
+    "index.html": "/toys-shop-react/index.html",
+    "main.f8125f8f.css.map": "/toys-shop-react/static/css/main.f8125f8f.css.map",
+    "main.a3050524.js.map": "/toys-shop-react/static/js/main.a3050524.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8125f8f.css",
+    "static/js/main.a3050524.js"
+  ]
+}
