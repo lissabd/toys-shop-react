@@ -1,0 +1,30 @@
+.breadcrumb {
+    background-color: #f9f6f6; 
+    text-align: left; 
+    padding: 18px 10px; 
+}
+.breadcrumb span{
+    font-weight: bold;
+}
+.breadcrumb .navigate-link{
+    color:rgb(153, 12, 219);
+}
+.breadcrumb a {
+    font-size: 16px;
+    font-family:Verdana, sans-serif;
+    text-decoration: none; 
+    margin-right: 0 5px; 
+}
+.breadcrumb a {
+    color: #000; 
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+.breadcrumb span {
+    color: #3e3d3d;
+    margin-left: 5px;
+}
+.breadcrumb {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}

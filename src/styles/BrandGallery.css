@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Monofett&family=Noto+Sans+Tangsa:wght@500&family=Nunito&family=Orbitron:wght@500&family=Reem+Kufi+Fun:wght@600&display=swap');
+.brand-gallery-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px 120px;
+  background-color: rgb(255, 105, 71);
+   
+}
+.brand-gallery-container  h4{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 27px;
+  border-radius: 17px;
+  font-weight: bold;
+}
+.brand-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+  
+.brand-item {
+  background-color: #fff !important;
+  width: 16.66%; 
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ff4d00;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+} 
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+@media screen and (max-width: 768px) {
+  .brand-item {
+    width: 40%;
+  }
+  .brand-item img {
+    max-width: 100%; 
+    height: auto;
+    width: 200px;
+    display: block;
+  }
+  .brand-gallery {
+    margin-left: 16px;
+  }
+  .brand-gallery-container{
+    padding: 20px;
+  }
+}
+
+
+  

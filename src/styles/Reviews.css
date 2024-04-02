@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Monofett&family=Noto+Sans+Tangsa:wght@500&family=Nunito&family=Orbitron:wght@500&family=Reem+Kufi+Fun:wght@600&display=swap');
+.review {
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.505) !important;
+  }
+.reviews-container .text{
+  text-align: center;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pagination button {
+  background-color: rgb(180, 118, 250);
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.pagination button:hover{
+  background-color: rgb(218, 86, 227);
+}
+.review-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.review-info {
+  flex: 1;
+}
+.review-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.review-text {
+  line-height: 150%;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+.reviews-container .text h3, .reviews-container .text  p{
+  font-family: 'Nunito', sans-serif;
+}
+.reviews-container .text  p{
+  font-size: 1.1em;
+}
+.reviews-container .text h3{
+  margin-bottom: 10px;
+  font-size: 2.4em;
+}
+@media (max-width: 600px) {
+  .review {
+    width: 100%;
+  }
+  .review-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review-photo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .reviews-container .text p{
+    font-size:19px;
+  }
+  .reviews-container .text h3{
+    font-size: 26px;
+  }
+}
+  
